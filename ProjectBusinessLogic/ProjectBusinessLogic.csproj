@@ -88,7 +88,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectData\ProjectData.csproj">
+    <ProjectReference Include="..\ProjectData\ProjectData.csproj">
       <Project>{0a341ffd-ecd6-46d9-9c95-7c867f1aa527}</Project>
       <Name>ProjectData</Name>
     </ProjectReference>

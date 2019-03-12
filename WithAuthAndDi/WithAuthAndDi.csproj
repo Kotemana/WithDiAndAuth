@@ -290,13 +290,13 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectData\ProjectData.csproj">
-      <Project>{0a341ffd-ecd6-46d9-9c95-7c867f1aa527}</Project>
-      <Name>ProjectData</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ProjectBusinessLogic\ProjectBusinessLogic.csproj">
       <Project>{1aa55d0c-12c8-43f3-af0f-7ae073f8a6a5}</Project>
       <Name>ProjectBusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectData\ProjectData.csproj">
+      <Project>{0a341ffd-ecd6-46d9-9c95-7c867f1aa527}</Project>
+      <Name>ProjectData</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
